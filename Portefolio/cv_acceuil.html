@@ -1,0 +1,84 @@
+<!--
+1.	Media Queries : Utilisez les Media Queries pour rendre votre CV réactif 
+et ajuster la mise en page pour les écrans plus petits, tels que les smartphones et les tablettes.
+
+2.	Page d'accueil : 
+La page d'accueil du CV doit comporter une image de fond ou une vidéo, ainsi que les informations de base, 
+telles que le nom, le titre professionnel et une courte biographie. 
+Utilisez Flexbox pour organiser ces éléments sur la page.
+
+3.	Menu de navigation : 
+Ajoutez un menu de navigation pour permettre aux visiteurs de naviguer facilement entre les différentes sections de votre CV. 
+Utilisez Flexbox pour organiser le menu et les éléments de navigation.
+
+4.	Section de présentation : Ajoutez une section de présentation qui présente vos compétences, 
+vos réalisations et vos expériences professionnelles. Utilisez Flexbox pour organiser les différents éléments, 
+tels que les icônes de compétences, les images de projet et les témoignages.
+
+5.	Section de formation : Incluez une section qui présente votre formation et vos certifications. 
+Vous pouvez ajouter les logos des écoles et des certifications.
+
+6.	Section de projets : Incluez une section qui présente vos projets, 
+tels que des sites web que vous avez conçus ou des applications que vous avez développées. 
+Utilisez Flexbox pour organiser les miniatures de projet et les détails.
+
+7.	Section de contact : Ajoutez une section de contact qui permet aux visiteurs de vous contacter facilement. 
+Incluez un formulaire de contact et des liens vers vos profils sur les réseaux sociaux. 
+
+8.	Liens : Ajoutez des liens vers votre portfolio, vos profils de réseaux sociaux et votre CV téléchargeable.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Page d'acceuil</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="footer"> 
+                <a  class="element-footer" href="cv_acceuil.html" >ACCEUIL</a>&emsp;
+                <a  class="element-footer" href="formation.html">FORMATIONS</a>&emsp;
+                <a  class="element-footer" href="projets.html">PROJETS</a>&emsp;
+                <a  class="element-footer" href="https://www.bourgogne-greta.fr/formation/titre-professionnel-concepteur-developpeur-dapplications-h-f-dijon/" title="site greta" target="_blank">LIENS UTILES</a>&emsp;
+                <a  class="element-footer" href="contact.html">CONTACT</a>&emsp;
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="conteneur">
+        <div class="item" >
+            <h3 class="presentation-flex">Hello I'm</h3>
+            <h1 class="presentation-flex">OUADA Mohamed</h1> <br><br><br><br><br>
+            <h2 class="presentation-flex">Concepteur développeur <br> d'applications</h2><br><br>             
+            <a href="./contact.html" class="btn">Contact me</a>
+        </div>
+        <!-- ma photo/ -->
+        <div class="photo">
+            <img class="item-image" src="./images/photo-personnel.png"  alt="logo cellule" >
+        </div>
+    </div><br><br><br>
+
+    
+    <div class="liens-contact">
+        
+        <div class="contact">
+            <p> Tél : 06 25 14 77 88 </p>
+            <p> E-mail : m.ouada@outlook.fr </p>
+            <p> Adresse : Paris, France </p>
+        </div>
+        <div class="liens-cv">
+            <a target="_blank" href="https://github.com/moha95370"><img class="git" src="./images/GitHub-Logo.png" width="60" alt="git"></a> &emsp;
+            <a target="_blank" href="./fichiers/cv ouada.pdf"> <img class="tcv" src="./images/256x256bb.png" width="60" alt="Télecharger le cv"></a>
+
+        </div>
+        
+      
+    </div>
+   
+        
+</body>
+</html>
